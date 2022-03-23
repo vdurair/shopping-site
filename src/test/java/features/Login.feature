@@ -1,3 +1,4 @@
+#Login Validation
 Feature: Login feature
   Verify if user is able to login in to the site
 
