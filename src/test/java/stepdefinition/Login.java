@@ -16,7 +16,8 @@ public class Login {
 	
 	@Given("^user is  on homepage$")
 	public void user_is_on_homepage() throws Throwable {
-		String chromeDriverPath = "../ShppoingSite/drivers/chromedriver.exe";
+		//String chromeDriverPath = "../ShppoingSite/drivers/chromedriver.exe";
+		String chromeDriverPath = "C:\\Libs\\chromedriver.exe";
         File file = new File(chromeDriverPath);
         String path = file.getPath();
         System.setProperty("webdriver.chrome.driver",path);
